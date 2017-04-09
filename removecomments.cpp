@@ -41,6 +41,8 @@ int main(){
     archivo.open("hola.txt");
     os.open("hola1.txt");
     removecomments(archivo,os);
+    archivo.close();
+    os.close();
     return 0;
 }
 
