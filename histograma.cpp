@@ -25,7 +25,7 @@ int main(){
     }
     int k=((mayor/10)*10)+10;
     for(int i=10;i<=k;i+=10){
-        cout << i << ":";
+        cout << i << ": ";
         for(int j=0;j<n.size();){
             if(n[j]<=i){
                 cout << "*";
